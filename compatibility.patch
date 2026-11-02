@@ -1,0 +1,20 @@
+--- official/policy/ACT/detr/main.py
++++ runtime/policy/ACT/detr/main.py
+@@ -159,7 +159,7 @@
+ 
+     print(args)
+     model = build_ACT_model(args)
+-    model.cuda()
++    model.to(torch.device(getattr(args, "device", "cuda:0")))
+ 
+     param_dicts = [
+         {
+@@ -187,7 +187,7 @@
+         setattr(args, k, v)
+ 
+     model = build_CNNMLP_model(args)
+-    model.cuda()
++    model.to(torch.device(getattr(args, "device", "cuda:0")))
+ 
+     param_dicts = [
+         {

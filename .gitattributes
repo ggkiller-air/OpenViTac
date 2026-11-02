@@ -1,0 +1,3 @@
+official/** -whitespace
+runtime/** -whitespace
+compatibility.patch -whitespace
