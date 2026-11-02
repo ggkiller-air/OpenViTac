@@ -36,6 +36,10 @@
 
 Building on the benchmark, **OpenVTLA** adapts a pretrained vision-language-action model to touch through a temporally aware tactile encoder and token-level integration. Paired simulation and real-world settings also enable the study of sim-real co-training.
 
+**Experiments in this fork:** the isolated [ACT Pull Drawer baseline](experiments/ACTPullDrawer/README.md)
+is maintained on `main`. See the [workspace guide](docs/FORK_WORKSPACE.md) for repository
+roles, local paths, and simulation resource checkout.
+
 <details>
 <summary><strong>Authors and affiliations</strong></summary>
 

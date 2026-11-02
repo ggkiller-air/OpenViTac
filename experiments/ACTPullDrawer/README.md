@@ -1,5 +1,10 @@
 # OpenViTac Pull Drawer official ACT baseline
 
+This project is maintained in `experiments/ACTPullDrawer` on the
+`ggkiller-air/OpenViTac` fork's `main` branch. Run the commands below from this
+directory. The original standalone repository is preserved in the local
+workspace archive; see [the workspace guide](../../docs/FORK_WORKSPACE.md).
+
 This is an isolated single-task baseline. No UViP DP, ManiFeel, or UniVTAC
 source, checkpoint, normalizer or running job is modified.
 
